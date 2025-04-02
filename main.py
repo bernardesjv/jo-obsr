@@ -118,7 +118,7 @@ match num:
         print("sabado")
 '''
 
-
+'''
 num = int(input("digite um numero: "))
 match num:
     case 1:
@@ -145,7 +145,7 @@ match num:
         print("novembro")
     case 12:
         print("dezembro")
-        
+'''        
         
         
         
