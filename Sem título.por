@@ -1,67 +1,30 @@
-   /*programa {
-  funcao inicio() {
-    real num1, num2, num3, media
-
-    leia(num1)
-    leia(num2)
-    leia(num3)
-
-    media = (num1+num2+num3)/3
-
-    escreva("a media dos numeros e"+media)
-
-  
-
-    */
-    
-    /*programa {
-  funcao inicio() {
-  real numbytes, transformador 
-
-  leia(numbytes)
-  tranformador = numbytes/1024
-
-  escreva("numbytes "+ tranformador)
-
-  */
-
-  /*programa {
-  funcao inicio() {
-    real nm1, nm2, nm3
-    leia(nm1, nm2 nm3)
-
-    escreva(nm3, nm2 nm1)
-    */
-
-    /*programa {
-  funcao inicio() {
-    real c, m, t, j
-
-    leia(c, m, t)
-    j = c*m*t 
-
-    escreva("os juros do empréstimo são " + j)
-    */
-
 programa {
   funcao inicio() {
-     real c, m, t, j
+    inteiro x1, x2, x3, x4, x5, rf
+    escreva("insira sua primeira carta :")
+    leia(x1)
+    escreva("segunda carta : ")
+    leia(x2)
+    escreva("terceira carta : ")
+    leia(x3) 
+    escreva("quarta carta : ")
+    leia(x4)
+    escreva("quinta carta : ")
+    
+    1 <= x1 <= 13
+    1 <= x2 <= 13
+    1 <= x3 <= 13
+    1 <= x4 <= 13
+    1 <= x5 <= 13
+    
+    se (x1 = 10 e x2 = 11 e x3 = 12 e x4 = 13 e x5 = 1){
+      escreva 
+    }
+    
 
-    leia(c, m, t)
-
-    j= c*(1 + m * t)
-   j =  j/100
-    escreva("juros simples é =" + j)
 
 
-
-
-
-
-
-
-
-
+    
 
     
   }
