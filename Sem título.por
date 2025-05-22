@@ -1,31 +1,41 @@
+/*programa {
+  funcao inicio() {
+    inteiro salario, qq, rsa, rqq, rt, desc
+    escreva("digite o salario mínimo :")
+    leia (salario)
+    escreva("digite a quatidade de quilowatts :")
+    leia (qq)
+
+    rsa = salario / 7
+    rqq = rsa / 100
+
+    rt = rqq  * qq
+    desc = rt * 0.9
+
+    escreva("o valor em reias de cada quilowatts é : ", rqq, "\n")
+    escreva("o valor em reias a ser pago é : ", rt, "\n")
+    escreva("o novo valor a ser pago por essa residência com um desconto de 10% é : ", desc, "\n")
+
+
+    
+  }
+}
+*/
+
+
 programa {
   funcao inicio() {
-    inteiro x1, x2, x3, x4, x5, rf
-    escreva("insira sua primeira carta :")
-    leia(x1)
-    escreva("segunda carta : ")
-    leia(x2)
-    escreva("terceira carta : ")
-    leia(x3) 
-    escreva("quarta carta : ")
-    leia(x4)
-    escreva("quinta carta : ")
+    inteiro n1
+    escreva("insira o numero :")
+    leia(n1)
     
-    1 <= x1 <= 13
-    1 <= x2 <= 13
-    1 <= x3 <= 13
-    1 <= x4 <= 13
-    1 <= x5 <= 13
-    
-    se (x1 = 10 e x2 = 11 e x3 = 12 e x4 = 13 e x5 = 1){
-      escreva 
+    se( n1 % 3 == 0 e n1 % 5 == 0 ){
+      escreva("o numero é multiplo de 3 e 5")
+    }senao {
+      escreva("o numero não é multiplo de 3 e 5")
     }
-    
 
 
 
-    
-
-    
   }
 }
